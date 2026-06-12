@@ -1,6 +1,6 @@
 import telebot
 
-TOKEN = "8673749824:AAH3qsz77Gu6lyilqyThnMsfIadwr7IIkb0"
+TOKEN =  "8673749824:AAH3qsz77Gu6lyilqyThnMsfIadwr7IIkb0"
 ADMIN_ID = 7921537380
 
 bot = telebot.TeleBot(TOKEN)
@@ -15,7 +15,7 @@ def start(message):
 
     bot.send_message(
         message.chat.id,
-        "👋 Assalomu alaykum!\nBotga xush kelibsiz."
+        "👋 Assalomu alaykum!\nBotga xush kelibsiz. Onlayn daromad kiladiganlar uchun Aynan mos Mushtariy xon bilan onlayn daromadga birga koyasiz🙂"
     )
 
     # Reklamalarni chiqarish
